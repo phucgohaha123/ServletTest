@@ -36,6 +36,7 @@ public class Home extends HttpServlet {
 		list.add("C");
 		list.add("D");
 		list.add("E");
+		list.add("E");
 		request.setAttribute("list", list);
 		request.getRequestDispatcher("home.jsp").forward(request, response);
 	}
