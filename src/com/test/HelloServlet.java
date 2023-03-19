@@ -49,7 +49,7 @@ public class HelloServlet extends HttpServlet {
 		String soluong=request.getParameter("a");
 		PrintWriter out = response.getWriter();
 		out.print("abcd"+soluong);
-		
+		System.out.println("abc");
 //		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
